@@ -1,0 +1,137 @@
+/* Body styles */
+body {
+    background-color: #E6F7FF;
+    color: #333;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand {
+    color: #02056a;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Form styles */
+  .form-control {
+    border-radius: 4px;
+  }
+  
+  .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+    font-weight:bolder;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Table styles */
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #dee2e6;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  td:nth-child(2),
+  td:nth-child(5),
+  td:nth-child(6) {
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  td:nth-child(4),
+  td:nth-child(10) {
+    font-weight: bold;
+    color: #ffc107;
+  }
+  
+  td:nth-child(11) {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  /* Page header styles */
+  .container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Additional styles */
+  .text-bg-primary {
+    color: #007bff;
+  }
+  
+  .vibrant-bg-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  
+  .weather-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+  }
+  
+  .custom-navbar{
+    background-color: #e3dfdf;
+  }
+  
+  
+  .temperature-value {
+    color: blue; /* Change color for temperature values */
+  }
+  
+  .humidity-value {
+    color: green; /* Change color for humidity values */
+  }
+  
+  .wind-value {
+    color: red; /* Change color for wind values */
+  }
+  
+  .sunrise-value {
+    color: orange; /* Change color for sunrise time values */
+  }
+  
+  .sunset-value {
+    color: purple; /* Change color for sunset time values */
+  }
+  
